@@ -209,11 +209,16 @@ footer {
   align-items: center;
 }
 .home header {
-  margin-top: 101px;
+  margin-top: 102px;
 }
 .home header img {
   width: 100%;
   border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .home header {
+    margin-top: 96px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
