@@ -6,17 +6,18 @@
 
 	@media @phone {
 		flex-flow: column-reverse nowrap;
+		
 	}
 
 } 
 
-.buttoning(@bg-color, @font-color) {
+.buttoning(@bg-color, @font-color, @radius) {
 	width: 100px;
 	padding: 10px 15px;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-	border-radius: 5px;
+	border-radius: @radius;
 	background: @bg-color;
 	color: @font-color;
 	&:hover {

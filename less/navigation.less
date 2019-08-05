@@ -1,11 +1,15 @@
 // Navigation code here
 nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
 	padding: 10px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	text-align: center;
 	background: @wild-sand;
+	opacity: 0.8;
 	border-bottom: solid 1px @sea-shell;
 
 
@@ -24,7 +28,7 @@ nav {
 	}
 
 	@media @phone {
-		padding: 10px 20px;
+		padding: 10px 30px;
 		justify-content: space-around;
 		h1 {
 			font-size: 3.6rem;
