@@ -166,6 +166,7 @@ nav {
   justify-content: center;
   text-align: center;
   background: #F6F6F6;
+  border-bottom: solid 1px #F1F1F1;
 }
 nav h1 {
   padding: 5px;
@@ -230,6 +231,26 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 100px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #22283A;
+  color: #F6F7F8;
+}
+.home .walk .walk-text .btn:hover {
+  background: #F6F7F8;
+  color: #22283A;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    padding: 20px;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
